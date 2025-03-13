@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('jsw_ford02_gyumolcsok/forras/img/banner_fruits.png');
+    background-size: cover;
+    background-position: center bottom;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+header h1 {
+    background-color: rgba(2, 138, 158, 0.25);
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px black;
+    padding: 20px;
+    border: 10px double white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgb(2, 138, 158);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-top: 3px double white;
+    border-bottom: 3px double white;
+}
+
+main {
+    padding: 20px;
+}
+
+.accordion {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: black;
+    color: white;
+}
+
+table tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form select, form button {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#results {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#results div {
+    background-color: rgb(73, 126, 23);
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    width: 18%;
+}
